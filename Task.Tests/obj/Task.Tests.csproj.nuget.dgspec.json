@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task.Tests/Task.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task.Tests/Task.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task.Tests/Task.Tests.csproj",
+        "projectName": "Task.Tests",
+        "projectPath": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task.Tests/Task.Tests.csproj",
+        "packagesPath": "/Users/ilakarcev/.nuget/packages/",
+        "outputPath": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilakarcev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task/Task.csproj": {
+                "projectPath": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task/Task.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task/Task.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task/Task.csproj",
+        "projectName": "Task",
+        "projectPath": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task/Task.csproj",
+        "packagesPath": "/Users/ilakarcev/.nuget/packages/",
+        "outputPath": "/Users/ilakarcev/Downloads/ModuleWorkIlyaKartsev/Task/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilakarcev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
